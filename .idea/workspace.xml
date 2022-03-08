@@ -9,31 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb53d811-1db4-478a-9c7b-29d9cc18fa75" name="Changes" comment="First step &#10;Configured java code">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kot/spring/DAO/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kot/spring/controllers/PeopleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kot/spring/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kot/spring/tester/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/listbycounter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/starter.html" afterDir="false" />
+    <list default="true" id="eb53d811-1db4-478a-9c7b-29d9cc18fa75" name="Changes" comment="Reestablishув">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kot/spring/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SpringBeginner/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kot/spring/controllers/SecondController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kot/spring/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kot/spring/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kot/spring/controllers/SecondController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SpringBeginner/WEB-INF/classes/com/kot/spring/config/MySpringMVCDispatcherServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBeginner/WEB-INF/classes/com/kot/spring/config/MySpringMVCDispatcherServletInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SpringBeginner/WEB-INF/classes/com/kot/spring/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBeginner/WEB-INF/classes/com/kot/spring/config/SpringConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SpringBeginner/WEB-INF/classes/com/kot/spring/controllers/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBeginner/WEB-INF/classes/com/kot/spring/controllers/FirstController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SpringBeginner/WEB-INF/views/first/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBeginner/WEB-INF/views/first/calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringBeginner/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kot/spring/config/MySpringMVCDispatcherServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kot/spring/config/MySpringMVCDispatcherServletInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kot/spring/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kot/spring/config/SpringConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kot/spring/controllers/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kot/spring/controllers/FirstController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kot/spring/controllers/SecondController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="CRUD" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,26 +81,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myMVC" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.65172416" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.59">
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kot.spring.tester.Tester" />
-      <module name="SpringBeginner" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kot.spring.tester.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 9.0.59" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.59" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -200,11 +176,6 @@
         </option>
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Tester" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -216,16 +187,8 @@
       <updated>1646636393565</updated>
       <workItem from="1646636395785" duration="115000" />
       <workItem from="1646636553158" duration="14000" />
-      <workItem from="1646636605925" duration="34600000" />
+      <workItem from="1646636605925" duration="15887000" />
     </task>
-    <task id="LOCAL-00001" summary="First step &#10;Configured java code">
-      <created>1646670392786</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1646670392786</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +206,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First step &#10;Configured java code" />
-    <option name="LAST_COMMIT_MESSAGE" value="First step &#10;Configured java code" />
+    <MESSAGE value="Reestablishув" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reestablishув" />
   </component>
 </project>
