@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All people</title>
+</head>
+<body>
+<h1>Person List by Counter</h1>
+<br/>
+<div>
+    <table th:border="1">
+        <tr>
+            <th> ID</th>
+            <th> First Name</th>
+            <th> Second Name</th>
+        </tr>
+        <tr th:each="person : ${people}">
+            <td th:text="${person.getId()}"></td>
+            <td th:text="${person.getName()}"></td>
+            <td th:text="${person.getSecondName()}"></td>
+
+        </tr>
+    </table>
+</div>
+<br/><br/>
+You can <a href="/people/new"> create new person </a>
+
+
+
+
+<!--<div th:each="person : ${people}">-->
+<!--    <a th:href="@{/people/{id}(id=${person.getId()})}" th:text="${person.getName()}">User</a>-->
+
+<!--</div>-->
+
+</body>
+</html>

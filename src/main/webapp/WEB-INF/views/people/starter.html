@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>Welcome to the person page</h1>
+<br/>
+
+Сколько машин вывести в список?
+<br/>
+<br/>
+<form th:action="@{/listbycounter}">
+    <input type="text" th:name="counter"/>
+    <input type="submit"/>
+</form>
+<br>
+
+Можно вывести
+<a href="/index"> ВЕСЬ СПИСОК МАШИН </a>
+<br>
+<br>
+Либо можно  <a href="/new"> СОЗДАТЬ НОВУЮ МАШИНУ </a>
+
+
+
+<!--<div th:each="person : ${people}">-->
+<!--    <a th:href="@{/people/{id}(id=${person.getId()})}" th:text="${person.getName()}">User</a>-->
+
+<!--</div>-->
+
+</body>
+</html>
